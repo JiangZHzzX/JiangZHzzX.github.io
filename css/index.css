@@ -1,0 +1,51 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+.header-warp{
+	/*宽度是屏幕的100%*/
+	width: 100%;
+	height: 45px;
+	background: #ffee00;
+	position: relative;
+}
+.nav{
+	width: 1170px;
+	height: 100%;
+	position: relative;
+	margin: auto;
+}
+.nav-list{
+	width: 100%;
+	height: 100%;
+	list-style: none;
+}
+.nav-item{
+	width: 130px;
+	height: 100%;
+	float: left;
+}
+.nav-item>a{
+	/*清除a标签原生的样式*/
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: lightsalmon;
+	line-height: 45px;
+	text-align: center;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+

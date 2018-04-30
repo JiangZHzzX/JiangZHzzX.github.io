@@ -1,79 +1,50 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!--我的个人主页-->
 		<meta charset="UTF-8">
-		<title></title>
-		<style>
-			*{padding: 0;margin: 0;}
-			html,body{
-				width:100%;
-				height: 100%;
-			}
-			body{
-				background: url(img/bg2.jpg);
-				background-size: 100%;
-			}
-			div{
-				width: 280px;
-				height: 400px;
-				position: fixed;
-				top: 0;
-				left: 0;
-				bottom: 0;
-				right: 0;
-				margin: auto;
-				transform-style: preserve-3d;
-				animation: play 60s linear infinite;
-			}
-			@keyframes play{
-				0%{
-					transform: rotateX(0deg) rotateY(0deg);
-				}
-					25%{
-					transform: rotateX(20deg) rotateY(180deg);
-				}
-					50%{
-					transform: rotateX(0deg) rotateY(360deg);
-				}
-					75%{
-					transform: rotateX(-20deg) rotateY(540deg);
-				}
-					100%{
-					transform: rotateX(0deg) rotateY(720deg);
-				}
-			}
-			div img{
-				width: 280px;
-				height: 400px;
-				position: absolute;
-			}
-			div img:nth-child(1){transform: rotateY(0deg) translatez(650px);}
-			div img:nth-child(2){transform: rotateY(36deg) translatez(650px);}
-			div img:nth-child(3){transform: rotateY(72deg) translatez(650px);}
-			div img:nth-child(4){transform: rotateY(108deg) translatez(650px);}
-			div img:nth-child(5){transform: rotateY(144deg) translatez(650px);}
-			div img:nth-child(6){transform: rotateY(180deg) translatez(650px);}
-			div img:nth-child(7){transform: rotateY(216deg) translatez(650px);}
-			div img:nth-child(8){transform: rotateY(252deg) translatez(650px);}
-			div img:nth-child(9){transform: rotateY(288deg) translatez(650px);}
-			div img:nth-child(10){transform: rotateY(324deg) translatez(650px);}
-			
-			
-		</style>
+		<title>猪猪豪的主页</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 	</head>
+	
+	
 	<body>
-		<div>
-		<img src="img/1.jpg" />
-		<img src="img/2.jpg" />
-		<img src="img/3.jpg" />
-		<img src="img/4.jpg" />
-		<img src="img/5.jpg" />
-		<img src="img/6.jpg" />
-		<img src="img/7.jpg" />
-		<img src="img/8.jpg" />
-		<img src="img/9.jpg" />
-		<img src="img/10.jpg" />
-		</div>
-		<audio src="raw/xiayimiao.mp3" autoplay="autoplay"></audio>
+		<!--导航栏-->
+		<header class="header-warp">
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item">
+						<a class="num_01" href="photos3d.html">我们的故事</a>
+					</li>
+					<li class="nav-item">
+						<a class="num_02">选项二</a>
+					</li>
+                    <li class="nav-item">
+						<a class="num_03">选项三</a>
+					</li>
+                    <li class="nav-item">
+						<a class="num_04">选项四</a>
+					</li>
+                    <li class="nav-item">
+						<a class="num_05">选项五</a>
+					</li>
+                    <li class="nav-item">
+						<a class="num_06">选项六</a>
+					</li>
+                    <li class="nav-item">
+						<a class="num_07">选项七</a>
+					</li>
+                    <li class="nav-item">
+						<a class="num_08">选项八</a>
+					</li>
+                    <li class="nav-item">
+						<a class="num_09">选项九</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		
+		<h1>欢迎来到我的主页</h1>
+		
 	</body>
 </html>
